@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=q">
+    <title>Seletores Css</title>
+
+    <style>
+    h1{
+        color: rebeccapurple;
+    }
+
+    p{
+        color: rgb(25, 0, 94);
+    }
+
+    #titulo_princial {
+        color: blueviolet;
+    }
+
+    #parte_central {
+        color: rgba(47, 3, 70, 0.685);
+        text-decoration: underline;
+        background-color: rgb(170, 170, 170);
+        font-style: italic;
+    }
+
+    .destaque {
+        background-color: rgb(27, 27, 27);
+    }
+
+    .cor_primaria {
+        color: darkorchid;
+    }
+
+    .container {
+        background-color: rgb(66, 36, 42);
+        border: 1px solid black;
+    }
+
+    /*Seleciona os q tem a classe destaque*/
+    p.destaque {
+        font-size: 20px;
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+    
+        <h1
+    
+        id="titulo_principal"; div style='text-align: center'>Titulo 1</h1>
+
+    </div>
+
+    <p class="destaque cor_primaria">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique magnam eveniet ab dolorum error harum, nihil perferendis corrupti odit provident alias non eos temporibus iste? Odio architecto inventore totam vero.</p>
+
+    <h1 div style='text-align: center;'>Segundo Titulo</h1>
+    
+    <p id="parte_central">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel totam doloremque quibusdam quisquam nihil porro autem, eaque officiis commodi adipisci sunt itaque exercitationem placeat. Ad quae voluptatem necessitatibus velit quas?</p>
+
+    <p id="parte_central" class="cor_primaria">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum tempore qui voluptas libero sapiente aliquid doloremque, sunt, odio, repudiandae obcaecati! Quam libero excepturi eaque nobis placeat sunt reiciendis labore.</p>
+
+
+</body>
+</html>
