@@ -1,0 +1,36 @@
+
+.cabecario{
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.versiculo{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.texto{
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+.importante{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+}
+
+.desafio{
+    font-style: italic;
+    text-align: center;
+    background-color: darkgrey;
+}
