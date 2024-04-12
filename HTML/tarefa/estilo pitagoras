@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-justify: auto;
+}
+
+.formula{
+    text-align: center;
+    background-color: khaki;
+    font-size: 2rem;
+    border: 2px solid black;
+
+}
