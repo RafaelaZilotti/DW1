@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de código</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        .codigos{
+            background-color: antiquewhite;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tags de código</h1>
+    
+</body>
+</html>
