@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div + span {
+        background-color: yellow;
+
+    }
+    span{
+        background-color: blue;
+    }
+
+    body > section + span{
+        background-color: aqua;
+    }
+
+
+
+</style>
+<body>
+
+    <span id="s1">span 0</span>
+    <section>
+        <span>Span 1</span>
+        <div>
+            <span class="item">span 2</span>
+            <span class="item">span 3</span>
+        </div>
+        <span>span 4</span>
+        <span>span 5</span>
+        <span>span 6</span>
+    </section>
+    
+</body>
+</html>
