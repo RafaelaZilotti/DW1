@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas pt 2</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+    ul.disciplinas{
+        list-style-type:armenian;
+    }
+    .menu{
+        list-style: none;
+    }
+
+    .menu li{
+        background-color: rgb(206, 206, 206);
+        border: 1px, solid, black;
+        /*border-style: solid;
+        border-style: 
+        boder-color:black;
+        */
+        padding: 10px 20px  30px 40px;
+        margin:10px 20px  30px 40px;
+        transition: 0.5s;
+        margin: 10px 0;
+        border-radius: 180px;
+    }
+    .menu li:hover{
+        background-color: rgb(0, 0, 46);
+    }
+
+    a.link {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: orange;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+</style>
+<body>
+
+    <h1>Listas Oredenadas</h1>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    
+    </ol>
+
+    <h1>LIstas Não Ordenadas.</h1>
+
+    <ul class="disciplinas">
+        <li>
+            <div>Desinvolvimento Web 1</div>
+        </li>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript Básico</li>
+        </ul>
+
+        <li>Intalação e Manutenção de Computadores</li>
+        <li>Desinvolvimento Web 2</li>
+    </ul>
+
+    <h1>Lista personalizada</h1>
+
+
+    <ul class="menu">
+        <li class="material-icons">cloud NUVEM??</li>
+        <br>
+        <li class="material-icons">traffic BEEP BEEP </li>
+    </ul>
+
+    <h1>LINKSSS</h1>
+    <p>pfv clique <a href="https://youtu.be/dQw4w9WgXcQ?si=f1maQpYGcDVl0U6o" class="link">aqui</a></p>
+
+    <p><a href="./ref.html">ou aqui</a></p>
+</body>
+</html>
