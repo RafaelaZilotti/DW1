@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    :root{
+        --cor-fundo:rgb(255, 255, 255);
+        --cor-principal:rgb(0, 0, 0);
+        --fonte: 14px "Poppins", sans-serif;
+        --fonte-destaque: 50px "Bebas Neue", sans-serif;
+
+        --altura-cabecalho: 100px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font: var(--fonte);
+    }
+
+    .container{
+        background-color:var(--cor-fundo);
+        height: 100vh;;
+    }
+    
+    .cabecalho{
+        border: 1px solid var(--cor-principal);
+        color:var(--cor-principal);
+        height: var(--altura-cabecalho);
+        overflow-y: scroll;
+        padding: 10px;
+    }
+
+    .principal{
+        border: 1px solid var(--cor-principal);
+        color: var(--cor-principal);
+        padding: 10px;
+
+        height: calc(100vh - var(--fonte-destaque));
+    }
+
+    .principal h1{
+        padding: 10px;
+        font: var(--fonte-destaque);
+    }
+
+    .principal ul{
+        padding-left: 25px;
+    }
+
+</style>
+<body>
+
+    <div class="container">
+        <div class="cabecalho">
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+        </div>
+        <div class="principal">
+            <h1>Lista de tarefas</h1>
+            <ul>
+                <li>Tarefa 1</li>
+                <li>Tarefa 2</li>
+                <li>Tarefa 3</li>
+            </ul>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
