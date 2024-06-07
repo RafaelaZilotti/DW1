@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitezinho</title>
+</head>
+<style>
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        background-color: linear-gradient(90deg, black, rgb(104, 0, 0));
+    }
+
+    div.container {
+        background-color: rgba(0, 0, 0, 0.986);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    div#cabecalho {
+        width: 100%;
+        height: 200vh;
+        background-color:black;
+    }
+
+    div#secao1 {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        height: 200vh;
+    }
+
+    div#secao2 {
+        width: 100%;
+        height: 200vh;
+        background-color: rgb(0, 0, 0);
+    }
+
+    div#secao3 {
+        width: 100%;
+        height: 200vh;
+        background-color: rgb(0, 0, 0);
+    }
+
+    ul.menu {
+        background-color: black;
+    }
+
+    ul.menu li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .menu a {
+        width: 120px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        transition: 0.3s;
+        border: 1px solid black;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    ul.menu a:hover {
+        background-color: rgb(255, 104, 77);
+        color: black;
+        border: 1px solid black;
+    }
+
+    a.link {
+        text-decoration: none;
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+
+        
+    }
+
+    h3{
+        text-align: center;
+        font-size: 40px;
+        color: red;
+    }
+
+    h1.nome{
+        font-family: "Jacquard 12", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        color: red;
+        font-size: 100px;
+        background: linear-gradient(45deg, red, rgb(204, 0, 0), rgb(182, 0, 0), rgb(99, 0, 0), rgb(182, 0, 0),  rgb(204, 0, 0), red);
+        background-size: 400% 100%;
+        animation: degrade 10s linear infinite alternate;
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;   
+    }
+
+
+    @keyframes degrade {
+        0%{
+        background-position-x: 0%;
+    }
+
+        100%{
+        background-position: 400%;
+    }
+
+
+
+}
+
+</style>
+<body>
+
+    <div class="container">
+
+        <ul class="menu">
+            <li><a href="#cabecalho">Cabeçalho</a></li>
+            <li><a href="#secao1">Seção 1</a></li>
+            <li><a href="#secao2">Seção 2</a></li>
+            <li><a href="#secao3">Seção 3</a></li>
+        </ul>
+
+        <h1 class="nome">Rafaela's site </h1>
+
+        <div id="cabecalho">
+            <h3>Cabeçalho</h3>
+        </div>
+        <div id="secao1">
+            <h3> Seção 1 </h3>
+        </div>
+        <div id="secao2">
+            <h3>Seção 2</h3>
+        </div>
+        <div id="secao3">
+            <h3>Sites</h3>
+            <p><a href="https://moodle.utfpr.edu.br/my/courses.php" class="link">MOODLE UTFPR</a></p>
+            <p><a href="https://sistemas2.utfpr.edu.br/dpls/sistema/aluno03/mpmenu.inicio" class="link">PORTAL UTFPR</a></p>
+            <p><a href="https://moodle.utfpr.edu.br/my/courses.php" class="link">MOODLE UTFPR</a></p>
+        </div>
+
+        <div id="informacao">
+            <h3>Informações de contato:</h3>
+            <p>Contato 1:</p>
+            <p>COntato 2:</p>
+        </div>
+    
+    </div>
+
+
+    
+</body>
+</html>l
