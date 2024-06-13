@@ -27,7 +27,7 @@
 
     div#cabecalho {
         width: 100%;
-        height: 200vh;
+        height: 20vh;
         background-color:black;
     }
 
@@ -39,15 +39,25 @@
 
     div#secao2 {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         background-color: rgb(0, 0, 0);
     }
 
     div#secao3 {
         width: 100%;
-        height: 200vh;
+        height: fit-content;
         background-color: rgb(0, 0, 0);
+
     }
+
+    div#informacao{
+        width: 100%;
+        height: 20vh;
+        background-color: black;
+        color: red;
+    }
+
+
 
     ul.menu {
         background-color: black;
@@ -81,8 +91,6 @@
         font-size: 20px;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
-
-        
     }
 
     h3{
@@ -106,6 +114,19 @@
         -webkit-text-fill-color: transparent;   
     }
 
+    p.msg{
+        width: 100%;
+        border: 2px solid red;
+        padding: 5px;
+        border-width: fit-content;
+        background-color: rgb(52, 0, 0);
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        text-shadow: 5px 15px 10px red;
+        justify-content: space-around;
+    }
+
     h3.mori{
         text-align: center;
         color: red;
@@ -115,21 +136,33 @@
     }
 
     div.imagem{
-        height: 300px;
+        height: 400px;
         width: 400px;
         text-align: left;
+        border: 25rem transparent ;
+        padding: 10px;
+        align-content: center;
 
     }
 
     .imag{
         height: 300px;
         width: 400px;
-        align-content: center;
+        align-self: center;
+        padding: 10px;
+        border: 11px;
     }
 
     p.mori{
         text-align: center;
         color: red;
+        font-size: 50px;
+    }
+
+    li.site{
+        font-size: 3em;
+        color: rgb(100, 0, 0);
+        text-shadow: 5px 15px 10px red;
     }
 
 
@@ -158,35 +191,63 @@
             <li><a href="#secao1">Seção 1</a></li>
             <li><a href="#secao2">Seção 2</a></li>
             <li><a href="#secao3">Seção 3</a></li>
+            <li><a href="#informacao">Informações</a></li>
         </ul>
 
-        <h1 class="nome">Rafaela's site </h1>
+        <h1 class="nome">HyperD3v1l's site </h1>
 
         <div id="cabecalho">
             <h3>Cabeçalho</h3>
+            <h4 style="text-align: center; color: red;">Este site foi criado por Rafaela Zilotti da Silva </h4>
+
+                <div>
+                    <p class="msg" style="text-align: center;">
+                        When you look at the void, the void looks back at you.
+                    </p>
+                </div>
+
+            
         </div>
         <div id="secao1">
             <h3> Seção 1 </h3>
+
+            <p>Eu nao sei oq colocar aq help</p>
+            
         </div>
         <div id="secao2">
             <h3 class="mori">Memento mori.</h3>
             <div class="imagem">
                 <img src="https://images.newscientist.com/wp-content/uploads/2023/11/03115312/SEI_178500608.jpg" alt="caveira" class="imag">
+                <p class="mori">Remember death</p>
             </div>
-            <p class="mori">Remember death</p>
+            
 
         </div>
         <div id="secao3">
             <h3>Sites</h3>
+            
+            <li class="site">Escolar: </li>
+            <br>
             <p><a href="https://moodle.utfpr.edu.br/my/courses.php" class="link">MOODLE UTFPR</a></p>
             <p><a href="https://sistemas2.utfpr.edu.br/dpls/sistema/aluno03/mpmenu.inicio" class="link">PORTAL UTFPR</a></p>
-            <p><a href="https://moodle.utfpr.edu.br/my/courses.php" class="link">MOODLE UTFPR</a></p>
+            <p><a href="https://github.com" class="link">GITHUB</a></p>
+
+            <li class="site">Entreterimento:</li>
+            <br>
+            <p><a href="https://orteil.dashnet.org/cookieclicker/" class="link">COOKIE CLIKER</a></p>
+            <p><a href="https://www.friv.com" class="link">FRIV</a></p>
+            <p><a href="https://www.jogos360.com.br" class="link">GAMES 360</a></p>
+            <p><a href="https://www.youtube.com"class="link">YOUTUBE</a></p>
+
+            
         </div>
 
         <div id="informacao">
             <h3>Informações de contato:</h3>
-            <p>Contato 1:</p>
-            <p>COntato 2:</p>
+            <p>Gmail_normal: kimalien307@gmail.com</p>
+            <p>Gmail_academico: rafaelazilotti@alunos.utfpr.edu.br</p>
+            <p>Instagram_normal: Polt3rge1st.rafa</p>
+            <p>Instagram_desenho: HyperArtist_66</p>
         </div>
 
     </div>
