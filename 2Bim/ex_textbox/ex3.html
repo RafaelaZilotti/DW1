@@ -13,23 +13,34 @@
         box-sizing: border-box;
     }
 
+    h1{
+        text-align: center;
+        font-size: 5rem;
+        color: rgb(132, 0, 255);
+    }
+
     div.container{
         height: 100vh;
         width: 100vw;
-        background-color: rgb(97, 0, 188);
+        background-color: rgb(32, 0, 62);
+    }
+
+    div.planos{
+        height: 80vh;
+        width: 100vw;
+        justify-items: space-between;
     }
 
     div.card{
         border: 1rem solid rgb(29, 29, 29);
         background-color: rgb(30, 30, 30);
         color: white;
-        padding: 15px;
         border-radius: 5%;
         height: 60vh;
-        width: 30vw;
+        width: 20vw;
         text-align: center;
         display: inline-block;
-
+        flex-direction: column;
     }
 
     div.plano-nome{
@@ -48,18 +59,30 @@
         
     }
 
-    div.descricao{
-
+    div.plano-descricao{
+        border: 1rem transparent;
+        padding: 20px;
+        padding-top: 40px;
+        height: 20vh;
+        font-size: 20px;
     }
 
-    div.plano-descricao{
-
+    div.plano-descricao ul{
+        list-style-type: none;
     }
 
 
     div.plano-comprar{
-        
+        width: 19vw;
+        text-align: center;
+        border: 1rem solid purple;
+        padding: 3px;
+        width: fit-content;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: purple;
     }
+
 
 
 </style>
@@ -69,48 +92,51 @@
 
         <h1>Planos</h1>
 
-        <div class="card">            
-            <div class="plano-nome">Starter</div>
-            <div class="plano-valor">R$ 50,00</div>
-            <div class="plano-descricao">
-                <ul>
-                    <li>1 usuário</li>
-                    <li>100 GB de armazenamento</li>
-                    <li>Suporte por email</li>
-                </ul>
-            </div>
-            <div class="plano-comprar">
-                <span>Comprar</span>
-            </div>
-        </div>
-        <div class="card">
+        <div class="planos">
             
-            <div class="plano-nome">Personal</div>
-            <div class="plano-valor">R$ 100,00</div>
-            <div class="plano-descricao">
-                <ul>
-                    <li>10 usuários</li>
-                    <li>1 TB de armazenamento</li>
-                    <li>Suporte por email</li>
-                </ul>
+                <div class="card">
+                    <div class="plano-nome">Starter</div>
+                    <div class="plano-valor">R$ 50,00</div>
+                    <div class="plano-descricao">
+                        <ul>
+                            <li>1 usuário</li>
+                            <li>100 GB de armazenamento</li>
+                            <li>Suporte por email</li>
+                        </ul>
+                    </div>
+                    <div class="plano-comprar">
+                        <span>Comprar</span>
+                    </div>
+                </div>
+            <div class="card">
+            
+                <div class="plano-nome">Personal</div>
+                <div class="plano-valor">R$ 100,00</div>
+                <div class="plano-descricao">
+                    <ul>
+                        <li>10 usuários</li>
+                        <li>1 TB de armazenamento</li>
+                        <li>Suporte por email</li>
+                    </ul>
+                </div>
+                <div class="plano-comprar">
+                    <span>Comprar</span>
+                </div>
             </div>
-            <div class="plano-comprar">
-                <span>Comprar</span>
-            </div>
+            <div class="card">
+                <div class="plano-nome">Team</div>
+                <div class="plano-valor">R$ 300,00</div>
+                <div class="plano-descricao">
+                    <ul>
+                        <li>50 usuários</li>
+                        <li>5 TB de armazenamento</li>
+                        <li>Suporte por email</li>
+                    </ul>
+                </div>
+                <div class="plano-comprar">
+                    <span>Comprar</span>
+                </div>
         </div>
-        <div class="card">
-            <div class="plano-nome">Team</div>
-            <div class="plano-valor">R$ 300,00</div>
-            <div class="plano-descricao">
-                <ul>
-                    <li>50 usuários</li>
-                    <li>5 TB de armazenamento</li>
-                    <li>Suporte por email</li>
-                </ul>
-            </div>
-            <div class="plano-comprar">
-                <span>Comprar</span>
-            </div>
             
         </div>
     </div>
