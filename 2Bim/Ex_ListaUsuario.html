@@ -3,63 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuarios</title>
+    <title>AAAAAA</title>
 </head>
 <style>
 
-    .list{
-
-
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
 
-    .list-item_imag{
+    .container{
+        background-color: rgba(0, 55, 255, 0.986);
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        
+    }
+
+    ul.list{
         border: 1px solid white;
-        border-radius: 100%;
+        background-color: white;
+        margin: 10px blue;
+        height: fit-content;
+        width: fit-content;
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 150px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    li.list-item{
+        border: 2px solid white;
+        height: 20vh;
+        width: 80vw;
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .list-item_img{
         height: 20vh;
         width: 10vw;
-        flex-shrink: 0;
-    }
-
-    img{
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
         border: 1px solid white;
         border-radius: 50%;
     }
 
     .list-item_content{
         border: 2px solid white;
-        width: 80vw;
-        height: 80vh;
-        padding: 20px;
+        height: 20vh;
+        width: 70vw;
+        background-color: white;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        font-size: 1.5rem;
+        padding-top: 40px;
     }
-
 
 
 </style>
 <body>
 
-    <ul class="list">
-        <li class="list-item">
-
-            <div class="list-item_imag">
-                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Foto legal">
-            </div>
-
-            <div class="list-item_content">
-                <p>AAAAAAAAAAAA</p>
-            </div>
-
-        </li>
-        <li class="list-item">
-            aaa
-        </li>
-        <li class="list-item">
-            aaaaa
-
-        </li>
-    </ul>
+    <div class="container">
+        <ul class="list">
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/39.jpg" alt="Foto top" class="list-item_img">
+                <ul class="list-item_content">
+                    <li style="font-weight: bolder;">Neil Banks</li>
+                    <li>7027 Avondale Ave</li>
+                    
+                </ul>
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/9.jpg" alt="Foto top" class="list-item_img">
+                <ul class="list-item_content">
+                    <li style="font-weight:bolder;">Rene Meyer</li>
+                    <li>8912 Ranchview Dr</li>
+                </ul>
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Foto top" class="list-item_img">
+                <ul class="list-item_content">
+                    <li style="font-weight: bolder;">Marion Graves</li>
+                    <li>2119 Timber Wolf Trail</li>
+                </ul>
+                
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/women/88.jpg" alt="Foto top" class="list-item_img">
+                <ul class="list-item_content">
+                    <li style="font-weight: bolder;">Norma Hunt</li>
+                    <li>6614 Oak Lawn Ave</li>
+                </ul>
+                
+            </li>
+        </ul>
+    </div>
     
 </body>
 </html>
