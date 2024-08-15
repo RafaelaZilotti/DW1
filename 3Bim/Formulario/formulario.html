@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        background-color: rgb(209, 0, 0);
+        border: 2px solid rgb(85, 0, 0);
+        border-radius: 5px;
+        padding: 0.5rem;
+        color: rgb(128, 50, 50);
+        outline: none;
+    }
+
+    input::placeholder {
+        color: black;
+    }
+
+    input[type=password] {
+        background-color: black;
+        color: white;
+    }
+
+</style>
+<body>
+
+    <h1>Formulario</h1>
+
+    <form action="#" method="get">
+        <label for="NOME">Nome</label>
+        <input type="text" id="NOME" placeholder="Digite seu nome caraio ">
+
+        <label for="Idade">Idade</label>
+        <input type="number" id="Idade" placeholder="Qual seu nivel de idosidade?">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digita a senha">
+
+
+        <div>
+            <h5> Vc tem:</h5>
+            <input type="checkbox" id="alzheimer" name="proble1" value="alzheimer">
+            <label for="alzheimer"> Alzheimer</label><br>
+            <input type="checkbox" id="autismo" name="proble2" value="autismo">
+            <label for="autismo">Autismo</label><br>
+            <input type="checkbox" id="pensaaaaa" name="proble3" value="pensamentint">
+            <label for="pensaaaaa">Pensamentos intrusivos</label><br>
+        </div>
+
+    </form>
+    
+</body>
+</html>
