@@ -11,11 +11,105 @@
         height: 100vh;
         width: 100vw;
         background-color: grey;
+        display: flex;
+        flex-direction: row;
     }
 
     .formu{
+        height: 100%;
+        width: 50vw;
+        background-color: white;
         
+        justify-content: space-between;
     }
+
+    .imag{
+        height: 100%;
+        width: 50vw;
+        background-image: url(https://i.pinimg.com/736x/04/9e/a2/049ea24aa121c23704f1c029e85f6480.jpg);
+        align-content: flex-end;
+    }
+
+    .info{
+        border: 2px solid transparent;
+        height: 40vh;
+        width: 35vw;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .form{
+        margin-left: 8px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        width: 33.5vw;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: black;
+    }
+
+    .botao1 li{
+        background-color: rgb(85, 0, 0);
+        border: 1px solid rgb(85, 0, 0);
+        transition: 0.5s;
+        list-style: none;
+        margin-right: 44px;
+        text-align: center;
+    }
+
+    ul.botao1 li:hover{
+        background-color: red;
+    }
+
+    .ou{
+        text-align: center;
+        border: 2px transparent;
+    }
+
+    .outros li{
+        background-color: rgb(22, 22, 22);
+        border: 1px solid rgb(22, 22, 22);
+        transition: 0.5s;
+        list-style: none;
+        margin-right: 44px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    ul.outros li:hover{
+        background-color: white;
+    }
+
+    .icon_img{
+        height: 30px;
+        width: 30px;
+        border: 2px transparent;
+    }
+
+    .diretriz{
+        height: 50px;
+        border: 2px solid transparent;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .escrita{
+        height: fit-content;
+        width: 50vw;
+        border: 2px transparent;
+        text-align: center;
+        color:rgb(49, 0, 0);
+        font-weight: bold;
+    }
+
 
 </style>
 <body>
@@ -24,6 +118,60 @@
 
         <div class="formu">
 
+            <div class="info">
+                <h1>HOUSE</h1>
+                <h3>Sign in or Create an account</h3>
+                <p>Por favor coloque os digitos de seu cartao</p>
+
+                <div class="form">
+                    <form action="#" method="get">
+                        <input type="text" id="nome" placeholder="Nome">
+                        <input type="email" id="email" placeholder="e-mail">
+                    </form>
+                </div>
+                
+                <ul class="botao1">
+                    <li>Continue</li>
+                </ul>
+
+                <div class="ou">
+                    <p>_______________________________ou_______________________________</p>
+                </div>
+
+                <div>
+                    <ul class="outros">
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png?20150923131459" alt="Google" class="icon_img">
+                            Continue with Google
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png?20150923131459" alt="Google" class="icon_img">
+                            Continue with Google
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png?20150923131459" alt="Google" class="icon_img">
+                            Continue with Google
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <div class="diretriz">
+                    <h4>Entrando ou criando uma conta voce estara concordando com <a href="https://super.abril.com.br/wp-content/uploads/2019/01/house.jpg?quality=90&strip=info&w=720&h=440&crop=1"> House </a> e <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtD-WzYjiruku8EfSqqUqAs8OWUxugmcgdXQ&s">Wilson</a></h4>
+                </div>
+
+            
+
+            </div>
+
+
+
+        </div>
+
+        <div class="imag">
+            <div class="escrita">
+                <h2>"Everybody lies" - Doctor Gregory House</h2>
+            </div>
 
         </div>
     </div>
