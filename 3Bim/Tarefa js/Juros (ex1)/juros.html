@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juros</title>
+
+    <script src="./juros.js" defer></script>
+</head>
+<style>
+
+    *{
+        text-align: center;
+    }
+
+    .spaco{
+        height: 5vh;
+        width: 100%;
+    }
+
+    h1, h3{
+        color: red;
+    }
+</style>
+<body>
+
+    <h1>Calculador de Juros</h1>
+
+    <h3> Montante = Capital * ( 1 + Juros ) <sup>Periodo</sup></h5>
+
+    <div class="spaco">
+
+    </div>
+
+    <label for="capital">Capital</label>
+    <input type="text" id="capital">
+
+    <label for="taxa">Taxa</label>
+    <input type="text" id="taxa">
+
+    <label for="periodo">Periodo</label>
+    <input type="text" id="periodo">
+
+    <button id="calcular">Calcular</button>
+    <!-- <input type="buttom" value"Calcular"> -->
+
+    <p>Seu montante e de:</p>
+
+    <div id="saida">
+
+    </div>
+
+    <p> Seu montante - capital e:</p>
+
+    <div id="saida2">
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custo viagem</title>
+
+    <script src="./Custo Viagem.js" defer></script>
+</head>
+<style>
+
+    *{
+        text-align: center;
+        align-items: center;
+    }
+
+    h1{ 
+        font-size: 3.5rem;
+    }
+
+    h1, h3{
+        color: red;
+    }
+
+    #quest{
+        border: 2px solid transparent;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    label{
+        padding: 6px;
+    }
+
+</style>
+<body>
+
+    <h1>Custo de Viagem</h1>
+
+    <div id="quest">
+        <label for="Distancia">Distancia Percorrida</label>
+        <input type="text" id="distancia">
+        <label for="autonomia">Autonomia do carro (km/L)</label>
+        <input type="text" id="autonomia">
+        <label for="tanque">Capacidade do tanque</label>
+        <input type="text" id="tanque">
+        <label for="combustivel">Preco combustivel</label>
+        <input type="text" id="combustivel">
+        <label for="pedagio">Valor de pedagio</label>
+        <input type="text" id="pedagio">
+    </div>
+
+    <button id="calcular">Calcurar</button>
+
+    <h3>O custo total de sua viagem sera:</h3>
+    <div id="saida1">
+
+    </div>
+
+    <h3>Paradas para abastecer:</h3>
+    <div id="saida2">
+
+    </div>
+    
+</body>
+</html>
