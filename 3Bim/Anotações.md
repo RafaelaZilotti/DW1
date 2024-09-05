@@ -33,3 +33,7 @@
 
 - python (nome codigo):
     Executa o codigo python
+
+## js com html:
+
+ - <button id="calcular" onclick="calcularIMC()">Calcular</button>

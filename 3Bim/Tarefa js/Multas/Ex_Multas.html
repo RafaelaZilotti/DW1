@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multas</title>
+
+    <script src="./Ex_MUltas.js" defer></script>
+
+</head>
+<style>
+
+    .multainfo{
+        height: 40vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .conta{
+        border: 2px solid black;
+        height: 40vh;
+        width: 40vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        background-color: grey;
+    }
+
+    button{
+        width: 110px;
+        border-radius: 5px;
+        margin-top: 50px;
+        background-color: black;
+        color: white;
+    }
+
+    .tabela{
+        border: 2px solid black;
+        height: 40vh;
+        width: 40vw;
+        background-color: grey;
+        padding-left: 20px;
+    }
+
+    #resp{
+        height: fit-content;
+        margin-top: 40px;
+        background-color: red;
+        text-align: center;
+    }
+
+</style>
+<body>
+
+    <h1>Sistema de Multas</h1>
+
+    <div class="multainfo">
+        <div class="conta">
+
+            <label for="maxivia">Velocidade máxima da via</label>
+            <input type="number" id="maxvia">
+
+            <label for="velcarro">Velocidade do veiculo </label>
+            <input type="number" id="velcarro">
+
+            <button id="calc">Calcular</button>
+
+        </div>
+        <div class="tabela">
+            <h3>Multa por excesso de velocidade</h3>
+            <p>
+                <strong>R$ 130,16</strong> - Até 20% acima do limite permitido <br>
+                <strong>R$ 195,23</strong> - De 20% até 50% acima do limite permitido <br>
+                <strong>R$ 880,41</strong> - Acima de 50% do limite permitido <br>
+            </p>
+        </div>
+    </div>
+
+    <div id="resp">
+        
+    </div>
+    
+</body>
+</html>
