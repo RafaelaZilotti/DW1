@@ -16,6 +16,23 @@
 
     - dialog:
 
+## JAVASCRIPT
+
+1. PORTAS LOGICAS:
+ 
+    - AND:
+     '&&'
+
+    - OR:
+      '||'
+
+2. OPERAÇÕES:
+
+    - variavel ++:
+      adiciona apenas +1
+
+    
+
 
 ## GERAL
 
@@ -33,6 +50,9 @@
 
 - python (nome codigo):
     Executa o codigo python
+
+- node (nome codigo):
+    Executa o codigo JavaScript
 
 ## js com html:
 
