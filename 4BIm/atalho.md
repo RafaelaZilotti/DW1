@@ -1,0 +1,1 @@
+1. alt + flechinha: puxa a linha atual junto ao cursor
