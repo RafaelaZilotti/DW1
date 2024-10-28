@@ -1,9 +1,6 @@
 
-function reverse(palavra){
-    
-
-    return tamanho
-
+function reverseString(str){
+    return palavra.split('').reverse().join("")
 }
-const invertida = reverse('Java')
-console.log(invertida)
+
+console.log(reverseString("Java"))
