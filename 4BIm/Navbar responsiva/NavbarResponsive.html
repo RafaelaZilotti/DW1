@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navabr</title>
+    <script src="NavbarResponsive.js" defer></script>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        min-height: 100vh;
+        background-color: whitesmoke;
+    }
+
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        background-color: green;
+    }
+
+    nav ul{
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav li{
+        height: 60px;
+    }
+
+    nav li:first-child{
+        margin-right: auto;
+    }
+
+    nav a{
+        height: 100%;
+        padding: 0 30px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+
+    nav a:hover{
+        color: greenyellow;
+    }
+
+    #sidebar{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 280px;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        transition: all 1s;
+        z-index: 999;
+    }
+
+    .icon{
+        fill: white;
+    }
+
+    .logotipo{
+       font-weight: bold;
+       font-size: 1.6rem;
+    }
+
+    .conteudo{
+        display: flex;
+        height: 90vh;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .conteudo p{
+        max-width: 400px;
+    }
+
+    @media (max-width:40rem){
+        .hideMobile{
+            display: none;
+        }
+    }
+
+    @media (min-width:640px){
+        .hideDesktop{
+            display: none;
+        }
+    }
+
+</style>
+<body>
+    <nav>
+        <ul class="logotipo">
+            <li><a href="#" class="hideMobile">Logo</a></li>
+            <li><a href="#" class="hideMobile">Home</a></li>
+            <li><a href="#" class="hideMobile">Sobre</a></li>
+            <li><a href="#" class="hideMobile">Contato</a></li>
+            <li id="menu">
+                <a href="#">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    <!--Usei o icone do codigo mostrado em sala, pois nao conseguia abrir o enviado corretamente-->
+                </a>
+            </li>
+        </ul>
+
+        <ul id="sidebar">
+            <li id="fecha">
+                <a href="#">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    <!--Usei o icone do codigo mostrado em sala, pois nao conseguia abrir o enviado corretamente-->
+                </a>
+            </li>
+            <li><a href="#">Logo</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="conteudo">
+        <h1>Navbar responsiva</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, voluptate provident quam natus, deserunt vero velit sed voluptatibus doloremque autem quos ut tempora dolore aliquam fuga quasi modi unde temporibus?</p>
+    </div>
+    
+</body>
+</html>
