@@ -1,0 +1,17 @@
+:root{
+    --ciano: rgb(0, 255, 255);
+    --vermelho: rgb(255, 0, 0)
+}
+
+.espaco1{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--vermelho);
+    justify-items: end;
+}
+
+.espaco2{
+    height: 100vh;
+    width: 30vw;
+    background-color: var(--ciano);
+}
